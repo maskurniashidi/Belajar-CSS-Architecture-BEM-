@@ -1,0 +1,63 @@
+body, html {
+    margin: 0;
+    height: 100vh;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background: rgb(238, 238, 238);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card {
+    padding: 0 5em;
+    width: 30%;
+
+    &__img{
+        display: block;
+        height: 100px;
+        width: 100%;
+        background: #e0466b;
+    }
+
+    &__content {
+        padding: 1.5em;
+        background: #fff;
+    }
+
+    &__list{
+        list-style-type: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__item{
+        padding: .3em .5em;
+        margin-right: .5em;
+        background: rgb(230, 230, 230);
+        border-radius: .3em;
+        font-size: .85em;
+
+        &--active {
+            background: #d4d4d4;
+            font-weight: bold;
+        }
+    }
+
+    &__link {
+        background: #2c8973;
+        color: #fff;
+        text-decoration: none;
+        padding: .5em;
+        border-radius: .5em;
+        display: inline-block;
+        margin-top: .5em;
+
+        &:hover{
+            background: #267764;
+        }
+    }
+}

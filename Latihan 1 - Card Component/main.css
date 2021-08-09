@@ -1,0 +1,67 @@
+body, html {
+  margin: 0;
+  height: 100vh;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background: #eeeeee;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.card {
+  padding: 0 5em;
+  width: 30%;
+}
+
+.card__img {
+  display: block;
+  height: 100px;
+  width: 100%;
+  background: #e0466b;
+}
+
+.card__content {
+  padding: 1.5em;
+  background: #fff;
+}
+
+.card__list {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.card__item {
+  padding: .3em .5em;
+  margin-right: .5em;
+  background: #e6e6e6;
+  border-radius: .3em;
+  font-size: .85em;
+}
+
+.card__item--active {
+  background: #d4d4d4;
+  font-weight: bold;
+}
+
+.card__link {
+  background: #2c8973;
+  color: #fff;
+  text-decoration: none;
+  padding: .5em;
+  border-radius: .5em;
+  display: inline-block;
+  margin-top: .5em;
+}
+
+.card__link:hover {
+  background: #267764;
+}
+/*# sourceMappingURL=main.css.map */
